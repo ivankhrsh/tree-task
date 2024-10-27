@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "molindo/typescript",
+    "molindo/react",
+    "molindo/tailwind",
+    "plugin:@next/next/recommended",
+    "prettier"
+  ],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "tailwindcss/classnames-order": "warn",
+    "prettier/prettier": 0,
+    "no-shadow": "off",
+    "@typescript-eslint/no-unnecessary-condition": "off"
+  }
+}
